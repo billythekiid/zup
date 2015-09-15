@@ -1,0 +1,47 @@
+@charset "utf-8";
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,700);
+/* CSS Document */
+
+body {
+    top: 0; 
+    color: gray; 
+    float: left;
+    width: 100%;
+    font-size: 0.9em; 
+    position: relative;
+    font-family: 'Open Sans', sans-serif; 
+}
+
+*{margin: 0px;padding: 0px;}
+*:focus{outline: none;}
+
+html, label, span{float: left;width: 100%;} /* Forces vertical scroll bar to be visible */
+a img{border: 0;}
+label{cursor: inherit;}
+ul{list-style: none;}
+a{color: inherit;cursor: pointer;text-decoration: none;}
+input, textarea, button, select{
+    float: left;
+    padding: 10px 20px;
+    margin-bottom: 20px;
+    border: 1px solid #aaaaaa;
+    color: inherit;
+    font-family: inherit !important;
+}
+
+button{
+    float: left;    
+    cursor: pointer;
+    background-color: #fff;
+}
+
+form{
+    float: left;
+    margin: 20px;
+}
+
+.clear{
+    float: left;
+    border-bottom: 1px solid #ececec;
+    width: 100%;
+}
